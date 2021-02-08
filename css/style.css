@@ -1,0 +1,58 @@
+header {
+    background-color:rgb(35, 206, 177);
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size:40px;
+    padding: 15px;
+    color: white;
+}
+div {
+    width:80%;
+    height: 430px;
+    border: 1vw solid rgb(8, 8, 8);
+    font-size: 5vw;
+    padding: 5vw;
+    margin:10px;
+    overflow-y:auto;
+    
+}
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    background-color: silver;
+}
+
+#footerP {
+    margin: 0;;
+    padding: 10px;
+}
+
+.mainP {
+    font-size: 25px;
+    margin-top: 60px;
+    background-color: red;
+    color: white;
+    
+}
+
+.lists{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#firstP{
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    margin-top: 25px;
+}
