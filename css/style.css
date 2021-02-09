@@ -46,6 +46,7 @@ footer {
     margin-top: 10px;
 }
 
+
 #firstP{
     font-size: 25px;
     background-color: black;
@@ -55,4 +56,22 @@ footer {
 
 ul {
     margin-top: 25px;
+    list-style-type: square;
 }
+
+ol {
+    margin-top: 25px;
+}
+
+.ordlists {
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 10px;
+    counter-increment: myCounter;
+}
+
+.ordlists::before {
+    content: counter(myCounter) ". ";
+    color: red;
+    font-weight: bold;
+  }
