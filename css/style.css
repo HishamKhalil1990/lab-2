@@ -8,6 +8,7 @@ h1 {
     font-size:40px;
     padding: 15px;
     color: white;
+    font-family: 'Architects Daughter', cursive;
 }
 div {
     width:80%;
@@ -17,6 +18,7 @@ div {
     padding: 5vw;
     margin:10px;
     overflow-y:auto;
+    background-color: rgb(132, 200, 221);
     
 }
 
@@ -25,6 +27,7 @@ footer {
     font-size: 30px;
     height: 50px;
     background-color: silver;
+    font-family: 'Architects Daughter', cursive;
 }
 
 #footerP {
@@ -37,6 +40,7 @@ footer {
     margin-top: 60px;
     background-color: red;
     color: white;
+    font-family: 'Architects Daughter', cursive;
     
 }
 
@@ -44,6 +48,7 @@ footer {
     font-size: 25px;
     margin-left: 50px;
     margin-top: 10px;
+    font-family: 'Architects Daughter', cursive;
 }
 
 
@@ -52,6 +57,7 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
+    font-family: 'Architects Daughter', cursive;
 }
 
 ul {
@@ -68,6 +74,7 @@ ol {
     margin-left: 50px;
     margin-top: 10px;
     counter-increment: myCounter;
+    font-family: 'Architects Daughter', cursive;
 }
 
 .ordlists::before {

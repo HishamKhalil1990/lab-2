@@ -1,7 +1,7 @@
 'use strict'
 
 let yourName = prompt("please insert your name?");
-alert('Hi ' + yourName + ' , let us play a guessing game, just insert yes/no or y/n');
+alert(`Hi ${yourName} let us play a guessing game, just insert yes/no or y/n`);
 let userScore = 0;
 
 // 1st Question
@@ -15,11 +15,9 @@ function questionOne() {
         alert('come on how doesn\'t');
     }
 }
-
 questionOne();
 
 //2nd Question
-
 function questionTwo() {
     let answerTwo = prompt('do you think i have a car ?'); // yes
     // console.log(answerTwo.toUpperCase());
@@ -30,11 +28,9 @@ function questionTwo() {
         alert('thanks god you\'er wrong');
     }
 }
-
 questionTwo();
 
 //Question Three
-
 function questionThree() {
     let answerThree = prompt('do you think i live in aqaba ?'); // no
     // console.log(answerThree.toUpperCase());
@@ -45,11 +41,9 @@ function questionThree() {
         userScore++;
     }
 }
-
 questionThree();
 
 //Question Four
-
 function questionFour() {
     let answerFour = prompt('do you think i know what is your age?'); // no
     // console.log(answerFour.toUpperCase());
@@ -60,11 +54,9 @@ function questionFour() {
         userScore++;
     }
 }
-
 questionFour();
 
 //Question five
-
 function questionFive() {
     let answerFive = prompt('do you think i go to cinemas ?'); // yes
     // console.log(answerFive.toUpperCase());
@@ -75,11 +67,9 @@ function questionFive() {
         alert('actually i do');
     }
 }
-
 questionFive();
 
 //Question Six
-
 function questionSex() {
     let answerSix;
     for (let i = 1; i <= 5; i++) {
@@ -110,20 +100,19 @@ function questionSex() {
         // console.log(answerSix);
     }
 }
-
 questionSex();
 
 //Question  Seven
-
+let typeOfMovies = ['action', 'comedy', 'sci-fi', 'horror'];
 function questionSeven() {
     let answerSeven;
-    let movieVar;
-    let userAnswer = false;
-    alert('type of movies: ' + 'drama, ' + 'horror, ' + 'fantasy, ' + 'mystrey, ' + 'sci-fi, ' + 'comedy, ' + 'action, ' + 'romance and ' + 'thriller');
-    let typeOfMovies = ['action', 'comedy', 'sci-fi', 'horror'];
+    let moviList = ['drama, ' , 'horror, ' , 'fantasy, ' , 'mystrey, ' , 'sci-fi, ' , 'comedy, ' , 'action, ' , 'romance and ' , 'thriller'];
+    alert(`'type of movies: ${moviList}`);
     for (let i = 1; i <= 6; i++) {
+        let userAnswer = false;
         answerSeven = prompt('try to guess one of the movies types i do like', 'insert your answer');
         for (let j = 0; j < typeOfMovies.length; j++) {
+            let movieVar;
             movieVar = typeOfMovies[j];
             if (answerSeven.toLowerCase() == movieVar) {
                 userAnswer = true;
@@ -140,12 +129,11 @@ function questionSeven() {
         // console.log(answerSeven);
     }
 }
-
 questionSeven();
 
-alert('the answers are: yes, yes,no, no, yes, 9, [action-comedy-(sci-fi)-horror]');
-alert('your score is ' + userScore);
-alert(yourName + ' , thanks for playing');
+alert(`the answers are: yes, yes,no, no, yes, 9, type of movies : [${typeOfMovies}]`);
+alert(`your score is ${userScore}`);
+alert(`${yourName}, thanks for playing`);
 
 
 

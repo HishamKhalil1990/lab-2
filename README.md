@@ -4,9 +4,10 @@
 
 ## Author: Hisham Khalil
 ## Links and Resources
-  - **none**
+  - **google fonts**
 ## Reflections and Comments
-  - **The `js` file contain a useful examples to use `if`, `while`, `for` and how to handle an `array`**
+  - **The `js` file contain a useful examples to use `if`, `while`, `for` and how to handle an `array` and how to declare a `functions` and call them**
+  - **new font is added to texts using google fonts**
   - **The wep page has some new featuers as a scroll box**
   ___
   ___
